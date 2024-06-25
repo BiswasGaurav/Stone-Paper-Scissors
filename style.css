@@ -243,5 +243,14 @@ body {
     font-size: 17px;
     border: none;
     border-radius: 5px;
+}
 
+.show {
+    left: 0rem;
+    top: -3%;
+}
+
+.right {
+    left: 21.5rem;
+    top: -3%;
 }
