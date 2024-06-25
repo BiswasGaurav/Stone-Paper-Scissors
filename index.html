@@ -8,14 +8,96 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<button class="btn">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    Click Me
-</button>
-<script>
-</script>
+    <div class="score-con">
+        <div class="logo">
+            <p>ROCK</p>
+            <p>Paper</p>
+            <p>SCISSORS</p>
+        </div>
+
+        <div class="score">
+            <p>Score</p>
+            <span> 2 </span>
+
+        </div>
+
+    </div>  
+
+    <div class="game-con">
+
+        <div class="info">
+            <p class="user">You Picked</p>
+            <p class = "house">The house Picked</p>
+        </div>
+
+        <div class="option">
+            <img src="images/bg-triangle.svg" alt = "Triangle-Image"/>
+
+            <!-- For the user.....Start -->
+            <div class="sci-con con">
+                <div class="item">
+                    ,<img src="images/icon-scissors.svg" alt="Scissors">
+                </div>
+            </div>
+
+            <div class="rock-con con">
+                <div class="item">
+                    ,<img src="images/icon-rock.svg" alt="Scissors">
+                </div>
+            </div>
+
+            <div class="paper-con con">
+                <div class="item">
+                    ,<img src="images/icon-paper.svg" alt="Scissors">
+                </div>
+            </div>
+            <!-- End -->
+
+            <!-- For the House start -->
+            <div class="sci-con computer">
+                <div class="item">
+                    ,<img src="images/icon-scissors.svg" alt="Scissors">
+                </div>
+            </div>
+
+            <div class="rock-con computer">
+                <div class="item">
+                    ,<img src="images/icon-rock.svg" alt="Scissors">
+                </div>
+            </div>
+
+            <div class="paper-con computer">
+                <div class="item">
+                    ,<img src="images/icon-paper.svg" alt="Scissors">
+                </div>
+            </div>
+            <!-- End -->
+
+        </div>
+
+    </div>
+
+    <div class="btn-div">
+        <button class="btn-rule">Rules</button>
+    </div>
+
+    <div class="rule-modal">
+        <div class="rule-img">
+            <div>
+                <p>Rule</p>
+                <button class="close">
+                    <img src="images/icon-close.svg" alt = "close-img"/>
+                </button>
+            </div>
+            <img src="images/image-rules.svg" alt="rule-img" class="rule">
+        </div>
+    </div>
+
+    <div class="win-modal">
+        <h1 class="winner">You Win</h1>
+        <button class="play">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
